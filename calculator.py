@@ -23,8 +23,10 @@ def parse_input():
     numbers2=""
     number1finished="False"
     MathProblem=input("Enter equation: ")
+    # Assigning MathProblem as any equation you would put in a calculator
     answer=re.findall(r'[0-9\.]+',MathProblem)
     print(calculator(answer[0], answer[2], answer[1]))
+    # Display the answer inputed in the calculator
 
                
     
